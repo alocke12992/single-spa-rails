@@ -1,8 +1,8 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
 import registerServiceWorker from './registerServiceWorker';
+import {registerApplication, start} from 'single-spa';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+registerApplication('root', () => import('./root.app.js'), (location) => location.pathname === "" || location.pathname === "/");
+
+start();
+
 registerServiceWorker();
