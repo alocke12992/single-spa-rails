@@ -13,5 +13,11 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "proxy": "http://localhost:3001"
+  "proxy": "http://localhost:3001",
+  "devDependencies": {
+    "angular": "^1.7.2",
+    "single-spa": "^4.0.0",
+    "single-spa-angular": "^2.0.0",
+    "single-spa-react": "^2.6.0"
+  }
 }
