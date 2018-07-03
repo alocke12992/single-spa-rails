@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import singleSpaReact from 'single-spa-react';
-import App from './app1/App.js';
+import Contacts from './Contacts.js';
 
 const reactLifecycles = singleSpaReact({
   React,
   ReactDOM,
-  rootComponent: App,
+  rootComponent: Contacts,
   domElementGetter,
 })
 
@@ -23,5 +23,5 @@ export const unmount = [
 ];
 
 function domElementGetter() {
-  return document.getElementById("root")
+  return document.getElementById("contacts")
 }

@@ -3,10 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@angular/common": "^6.0.7",
+    "@angular/compiler": "^6.0.7",
+    "@angular/core": "^6.0.7",
+    "@angular/platform-browser": "^6.0.7",
+    "@angular/platform-browser-dynamic": "^6.0.7",
     "axios": "^0.18.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
+    "react-router-dom": "^4.3.1",
     "react-scripts": "1.1.4",
+    "rxjs": "^6.2.1",
     "semantic-ui-css": "^2.3.2",
     "semantic-ui-react": "^0.81.3"
   },
@@ -21,6 +28,8 @@
     "angular": "^1.7.2",
     "single-spa": "^4.0.0",
     "single-spa-angular": "^2.0.0",
-    "single-spa-react": "^2.6.0"
+    "single-spa-react": "^2.6.0",
+    "ts-loader": "^4.4.2",
+    "typescript": "^2.9.2"
   }
 }
